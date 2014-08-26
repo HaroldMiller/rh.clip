@@ -1,0 +1,14 @@
+CLIP
+====
+
+Description
+-----------
+
+Clip is a utility to prune away unwanted lines from a text file. it is equivilent to the 'grep -v [key] [oldfile] >> [newfile]' command, with a few additional features.
+
+[keys] are stored in a clip.key file. 'clipadd [key]' adds keys and 'clipclear' empties the key file. 
+
+One use of this utility would be to remove lines from a log file that may be obscuring more important entries. This would be an iterative process, view the log, remove one or two types of unimportant entries, then view it again. By repeating this process a few times you should end up with the 'core' of the file, containing only valuable lines.
+
+This is version 0.01, written by Harold Miller, harold@redhat.com
+
